@@ -1,0 +1,48 @@
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    background-color: #ddd;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    color: rgb(10, 10, 10);
+    background-color: rgb(131, 165, 193);
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 50px auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
